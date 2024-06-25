@@ -1,0 +1,35 @@
+.heading
+{
+    text-align:center;
+}
+
+.about-us-container {
+    color: #fff; 
+    background-color: #222; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .about-us-container h1 {
+    color: #f0f0f0; 
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-us-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  
+  .about-us-container a {
+    color: #6bd2db;
+    text-decoration: none;
+  }
+  
+  .about-us-container a:hover {
+    text-decoration: underline;
+  }
+  

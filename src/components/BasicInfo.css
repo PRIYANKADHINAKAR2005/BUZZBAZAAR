@@ -1,0 +1,68 @@
+
+
+.store-info {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .store-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 2fr 2fr 0fr;
+    gap: 20px;
+  }
+  
+  .info-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .buttons-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-col button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #393636;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .info-col button:hover {
+    background-color: #575454;
+    color: #e0e0e0;
+  }
+  
+  .follow {
+    background-color: #28a745;
+  }
+  
+  .follow:hover {
+    background-color: #218838;
+    color: white;
+  }
+  
+  .info-col p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  

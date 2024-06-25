@@ -1,0 +1,31 @@
+.category-filter
+{
+    margin-top:30px;
+}
+
+.category-filter h3, .category-filter ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    color:aliceblue;
+  }
+  
+  .category-filter ul {
+    padding: 20px 0;
+  }
+  
+  .category-filter li {
+    margin: 10px 0;
+  }
+  
+  .category-filter label {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    cursor: pointer; 
+  }
+  
+  .category-filter input[type="radio"] {
+    margin-right: 10px; 
+  }
+  
